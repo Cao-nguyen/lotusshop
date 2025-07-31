@@ -17,7 +17,7 @@
   "homepage": "https://github.com/Cao-nguyen/lotusshop#readme",
   "description": "",
   "dependencies": {
-    "express": "^5.1.0",
+    "express": "^4.18.2",
     "mongoose": "^8.17.0"
   }
 }
