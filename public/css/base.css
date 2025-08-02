@@ -9,3 +9,70 @@
     box-sizing: border-box;
     font-family: 'GoogleSans';
 }
+
+:root {
+    --sen-xd: #1C5B3E;
+    --xam-tim-nhat: #484A56;
+    --trang-kem: #F5F5F1;
+    --xanh-bac-ha: #A7C1A8;
+    --xanh-luc-pastel: #D1D8BE;
+    --xam-xanh-dam: #819A91;
+}
+
+header {
+    background-color: var(--xanh-bac-ha);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1000;
+}
+
+header img {
+    width: 60px;
+    margin: 0px 30px;
+}
+
+header .nav {
+    margin: 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .nav a {
+    padding: 0px 20px;
+    font-weight: bold;
+    color: var(--sen-xd);
+}
+
+header .icon {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+header .icon a ion-icon {
+    font-size: 20px;
+    padding: 0px 10px;
+}
+
+header .icon .avatar {
+    background-color: #1C5B3E;
+    border-radius: 50px;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+main {
+    padding-top: 60px;
+}
+
+footer {
+    width: 100%;
+    background-color: var(--xanh-bac-ha);
+    padding: 20px 30px;
+    text-align: center;
+}
