@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,11 @@
   "homepage": "https://github.com/Cao-nguyen/lotusshop#readme",
   "description": "",
   "dependencies": {
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
     "express": "^4.18.2",
-    "mongoose": "^8.17.0"
+    "mongoose": "^8.17.0",
+    "nodemon": "^2.0.20",
+    "tailwindcss": "^4.1.11"
   }
 }
