@@ -1,0 +1,9 @@
+{
+    "watch": [
+        "views",
+        "public",
+        "app.js"
+    ],
+    "ext": "js,pug,css",
+    "exec": "node app.js"
+}
