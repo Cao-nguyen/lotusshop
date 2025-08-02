@@ -1,16 +1,13 @@
-require('dotenv').config()
-const express = require('express');
-const app = express();
-const PORT = process.env.PORT;
-const configEngine = require('./config/configEngine')
-const webRoutes = require('./routes/client')
+const express = require('express')
+const serverless = require('serverless-http')
+const app = express()
 
 // config
+const configEngine = require('../src/config/configEngine')
 configEngine(app)
 
-// router
+// routes
+const webRoutes = require('../src/routes/client')
 app.use(webRoutes)
 
-app.listen(PORT, () => {
-    console.log(`http://localhost:3000`);
-});
+module.exports = serverless(app)
