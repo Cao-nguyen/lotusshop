@@ -12,5 +12,5 @@ configEngine(app)
 app.use(webRoutes)
 
 app.listen(PORT, () => {
-    console.log(`Thành công`);
+    console.log(`http://localhost:3000`);
 });
