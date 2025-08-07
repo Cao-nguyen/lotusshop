@@ -19,10 +19,21 @@ html(lang="en")
 
       div.icon
         a(href="/giohang")
-          ion-icon(name="bag-outline")
+          ion-icon(name="cart-outline")
         a(href="/thongbao")  
           ion-icon(name="notifications-outline")
-        div.avatar CN
+        div.wapper
+          div.avatar CN
+            div.box-avatar 
+              div.box-avatar-item 
+                ion-icon(name="person-outline")
+                p Thông tin cá nhân
+              div.box-avatar-item 
+                ion-icon(name="cube-outline") 
+                p Đơn hàng của tôi
+              div.box-avatar-item 
+                ion-icon(name="exit-outline") 
+                p Đăng xuất
       
     main
       block content
